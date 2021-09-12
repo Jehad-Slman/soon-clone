@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/soon-clone/static/css/main.c117f0bf.chunk.css",
+    "main.js": "/soon-clone/static/js/main.ee64baac.chunk.js",
+    "main.js.map": "/soon-clone/static/js/main.ee64baac.chunk.js.map",
+    "runtime-main.js": "/soon-clone/static/js/runtime-main.64ca4006.js",
+    "runtime-main.js.map": "/soon-clone/static/js/runtime-main.64ca4006.js.map",
+    "static/css/2.4f3b374b.chunk.css": "/soon-clone/static/css/2.4f3b374b.chunk.css",
+    "static/js/2.e4297566.chunk.js": "/soon-clone/static/js/2.e4297566.chunk.js",
+    "static/js/2.e4297566.chunk.js.map": "/soon-clone/static/js/2.e4297566.chunk.js.map",
+    "static/js/3.be4f23f3.chunk.js": "/soon-clone/static/js/3.be4f23f3.chunk.js",
+    "static/js/3.be4f23f3.chunk.js.map": "/soon-clone/static/js/3.be4f23f3.chunk.js.map",
+    "index.html": "/soon-clone/index.html",
+    "static/css/2.4f3b374b.chunk.css.map": "/soon-clone/static/css/2.4f3b374b.chunk.css.map",
+    "static/css/main.c117f0bf.chunk.css.map": "/soon-clone/static/css/main.c117f0bf.chunk.css.map",
+    "static/js/2.e4297566.chunk.js.LICENSE.txt": "/soon-clone/static/js/2.e4297566.chunk.js.LICENSE.txt",
+    "static/media/Card.module.css": "/soon-clone/static/media/home-page.a52122ea.png",
+    "static/media/slick-theme.css": "/soon-clone/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64ca4006.js",
+    "static/css/2.4f3b374b.chunk.css",
+    "static/js/2.e4297566.chunk.js",
+    "static/css/main.c117f0bf.chunk.css",
+    "static/js/main.ee64baac.chunk.js"
+  ]
+}
