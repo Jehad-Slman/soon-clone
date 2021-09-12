@@ -1,0 +1,76 @@
+.services
+{
+    width: 80%;
+    padding: 10px 20px;
+    margin: 100px auto;
+}
+
+.services > h2
+{
+    color: #f12d15;
+    font-weight: normal;
+    font-size: 2rem;
+    position: relative;
+    padding: 0 0 20px;
+    margin: 10px;
+}
+
+.services > h2::after
+{
+    content: "";
+    width: 3%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.services > p
+{
+    margin: 10px 0 50px 10px;
+    font-weight: 300;
+}
+
+.slider
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.services > h2::after
+{
+    background-color: #343434;
+}
+
+.services > p
+{
+    color: #343434;
+}
+
+.dark > h2::after
+{
+    background-color: #f3f3f3;
+}
+
+.dark > p
+{
+    color: #f3f3f3;
+}
+
+@media (max-width: 750px)
+{
+    .services
+    {
+        width: 100%;
+        padding: 3px 6px;
+        margin: 100px auto;
+    }
+
+    .slider
+    {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+}

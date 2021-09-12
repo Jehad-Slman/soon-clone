@@ -1,0 +1,22 @@
+.photo
+{
+    background: url(../images/home-page.png) center center no-repeat fixed;
+    background-size: cover;
+    height: 90vh;
+}
+
+.main
+{
+    background-color: #fff;
+    width: 80%;
+    border-top: 2px solid #f12d15;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    margin: -5% auto 0;
+    padding: 10px 20px;
+}
+
+.dark
+{
+    background-color: #121212;
+}

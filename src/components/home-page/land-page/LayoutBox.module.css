@@ -1,0 +1,40 @@
+.box
+{
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: white;
+    width: auto;
+    text-align: center;
+    box-shadow: 0 2px 8px 5px rgba(0,0,0,.25);
+}
+
+.box h2
+{
+    color: #f12d15;
+    margin: 10px 0;
+}
+
+.box p
+{
+    margin: 10px 0;
+    font-size: .8rem;
+}
+
+@media (max-width: 750px)
+{
+    .box
+    {
+        padding: 3px 6px;
+    }
+
+    .box h2
+    {
+        font-size: .8rem;
+    }
+
+    .box p
+    {
+        font-size: .5rem;
+    }
+}

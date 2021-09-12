@@ -1,0 +1,24 @@
+.services
+{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat( 2, minmax(200px, 1fr));
+    margin-bottom: 50px;
+}
+
+.title
+{
+    color: #f12d15;
+    font-weight: normal;
+}
+
+@media (max-width: 750px)
+{
+    .services
+    {
+        grid-gap: 10px;
+        grid-template-columns: 1fr;
+    }
+
+
+}

@@ -1,0 +1,29 @@
+.slick-next:before 
+{
+    content: '→';
+    color: #f12d15;
+    font-size: 2rem;
+}
+
+.slick-prev:before
+{
+    content: '←';
+    color: #f12d15;
+    font-size: 2rem;
+    position: absolute;
+    left: -15px;
+}
+
+.slick-list
+{
+    padding-bottom: 10px;
+}
+
+@media (max-width: 750px)
+{
+    .slick-next:before ,
+    .slick-prev:before
+    {
+        font-size: 1rem;
+    }
+}

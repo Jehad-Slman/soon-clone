@@ -1,0 +1,27 @@
+.detail
+{
+    margin-bottom: 100px;
+}
+
+.detail h2
+{
+    color: #f12d15;
+    font-weight: normal;
+}
+
+.detail p,
+.detail li
+{
+    color: #343434;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+.dark p,
+.dark li,
+.dark h4
+{
+    color: #f3f3f3;
+}
+
+

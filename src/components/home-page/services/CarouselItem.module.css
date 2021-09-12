@@ -1,0 +1,84 @@
+.item
+{
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.item:hover
+{
+    background-color: #ddd;
+    z-index: 1;
+}
+
+.item:hover::after
+{
+    content: "+";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: white;
+    background-color: #f12d15;
+    position: absolute;
+    left:48%;
+    bottom: -10px;
+    z-index: 5;
+}
+
+.item:hover > h2
+{
+    color: #f12d15;
+}
+
+.item > h2{
+    font-weight: normal;
+}
+
+.item > p
+{
+    font-size: .8rem;
+    font-weight: 300;;
+}
+
+.item
+{
+    color: #343434;
+}
+
+.dark
+{
+    color: #f3f3f3;
+}
+
+.dark:hover
+{
+    color: #343434;
+}
+
+@media (max-width: 750px)
+{
+    .item
+    {
+        padding: 3px;
+    }
+
+    .item:hover::after
+    {
+        content: "";
+        height: 0;
+        width: 0;
+    }
+
+    .item > h2
+    {
+        font-size: .7rem;
+        word-wrap: break-word;
+    }
+
+    .item > p
+    {
+        font-size: .5rem;
+    }
+}

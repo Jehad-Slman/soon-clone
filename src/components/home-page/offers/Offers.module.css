@@ -1,0 +1,25 @@
+.offer
+{
+    padding: 10px;
+}
+
+.offer > h2
+{
+    color: #f12d15;
+}
+
+.offer > p
+{
+    line-height: 1.5rem;
+    font-weight: 300;
+}
+
+.offer > p
+{
+    color: #343434;
+}
+
+.dark .offer > p
+{
+    color: #f3f3f3;
+}

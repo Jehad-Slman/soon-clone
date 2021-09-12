@@ -1,0 +1,90 @@
+.footer
+{
+    margin: 0;
+    width: 100%;
+    align-items: flex-start;
+    border-top: 1px solid #f12d15;
+    background-color: #f3f3f3;
+}
+
+
+.footer > div > ul
+{
+    list-style: none;
+    line-height: 2rem;
+}
+
+.footer > div > ul > li
+{
+    color: #343434;
+    font-weight: 300;
+}
+
+.social
+{
+    margin: 0 40px 20px;
+    justify-content: start;
+}
+
+.social > a
+{
+    text-decoration: none;
+    color: #343434;
+    font-size: 1.8rem;
+    padding: 10px 10px;
+}
+
+.social > a:hover,
+.social > a:active
+{
+    color: #f12d15;
+}
+
+.logo
+{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.logo span
+{
+    color: #f12d15;
+    display: inline-block;
+    -webkit-transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+}
+
+.rights
+{
+    color: #343434;
+    text-align: center;
+}
+
+.rights > span
+{
+    color: #f12d15;
+    font-weight: bold;
+}
+
+@media (max-width: 750px)
+{
+    .footer{
+        padding: 0;
+    }
+    .footer > div > ul
+    {
+        padding: 10px 0;
+    }
+
+    .footer > div > ul > li
+    {
+        font-size: .8rem;
+        text-align: center;
+    }
+
+    .social
+    {
+        text-align: center;
+    }
+}

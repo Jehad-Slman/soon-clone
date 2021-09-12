@@ -1,0 +1,77 @@
+.picture
+{
+    background: url(../../../images/home-page.png) center center no-repeat fixed;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.container
+{
+    width: 70%;
+    font-size: 1.5rem;
+    justify-self: start;
+}
+
+.container button
+{
+    outline: none;
+    border: 1px solid #f12d15;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #f12d15;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.container button:hover,
+.container button:active,
+.container button:hover a,
+.container button:active a
+{
+    background-color: white;
+    color: #f12d15;
+}
+
+.container button a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.layout
+{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 20%;
+    bottom: -60px;
+}
+
+@media (max-width: 750px)
+{
+    .container
+    {
+        width: 50%;
+        font-size: .5rem;
+    }
+    
+    .container button
+    {
+        padding: 3px 6px;
+        font-size: .5rem;
+    }
+
+    .layout
+    {
+        width: 100%;
+        left: 0;
+        justify-content: space-between;
+    }
+}

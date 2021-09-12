@@ -1,0 +1,175 @@
+.intro
+{
+    width: 90%;
+    align-items: flex-start;
+}
+
+.intro > div
+{
+    padding: 0 5px;
+}
+
+.waw > h2
+{
+    color: #f12d15;
+    font-weight: normal;
+    position: relative;
+    padding: 10px 0;
+}
+
+.waw > h2::after,
+.stories > h2::after
+{
+    content: "";
+    width: 5%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.waw > p,
+.waw > ul > li
+{
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+.stories
+{
+    background-color: #f3f3f3;
+}
+
+.stories > h2
+{
+    font-weight: normal;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.stories > h2::after
+{
+    left: 15px;
+}
+
+.stories > .intro
+{
+    margin: 0;
+    width: 100%;
+}
+
+.stories > .intro > div
+{
+    padding: 0 15px;
+}
+
+.stories > .intro > div > p
+{
+    font-weight: 300;
+}
+
+.trial
+{
+    width: 80%;
+    margin: 50px auto 30px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.trial > h2
+{
+    color: #f12d15;
+    font-weight: normal;
+    padding: 15px 0;
+    position: relative;
+}
+
+.trial > h2::before
+{
+    content: "";
+    width: 2%;
+    height: 2px;
+    position: absolute;
+    left: 49%;
+    top: 0;
+}
+
+.trial > button
+{
+    outline: none;
+    border: 1px solid #f12d15;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #f12d15;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.trial button:hover,
+.trial button:active,
+.trial button:hover a,
+.trial button:active a
+{
+    background-color: white;
+    color: #f12d15;
+}
+
+.trial > button > a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.stories > .intro > div > p,
+.waw > p,
+.waw > ul > li,
+.stories > h2
+{
+    color: #454545;
+}
+
+.trial > h2::before,
+.waw > h2::after,
+.stories > h2::after
+{
+    background-color: #454545;
+}
+
+.dark .waw > p,
+.dark .waw > ul > li
+{
+    color: #f3f3f3;
+}
+
+.dark .trial > h2::before,
+.dark .waw > h2::after
+{
+    background-color: #f3f3f3;
+}
+
+@media (max-width: 750px)
+{
+    .waw > p,
+    .waw > ul > li
+    {
+        font-size: .8rem;
+    }
+
+    .stories > .intro > div
+    {
+        padding: 5px 0;
+    }
+
+    .trial > h2
+    {
+        padding: 10px 0;
+        font-size: .8rem;
+    }
+
+    .trial > button
+    {
+        padding: 3px 6px;
+        font-size: .5rem;
+    }
+
+}
